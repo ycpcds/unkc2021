@@ -12,7 +12,7 @@ http://www.templatemo.com/tm-513-avalon
     font-family: 'Open Sans', arial, sans-serif;
 }
 
-body {
+/* body {
 	padding-top: 80px;
 	overflow-x: hidden;
 	background-color: #fff;
@@ -21,16 +21,37 @@ body {
 	body {
 	  padding-top: 30px;
 	}
-  }
+  } */
+
+
 
 /* Header */
+
 #head-OLS { 
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/PARCC-Results_R1.jpg) no-repeat; 
-	background-size: cover; min-height:420px; text-align: center; padding-top:240px; color:white; font-weight:300; }
-#head-OLS .secondary { height:100px; min-height: 100px; padding-top:0px; }
-	#head-OLS .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:6px; color:white; line-height:1.15em; } 
-	#head-OLS .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; }
-	#head-OLS .tagline a { color:#fff; } 
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/PARCC-Results_R1.jpg) no-repeat;}
+#head-PPs {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/neonbrand-2RRq1BHPq4E-unsplash.jpg) no-repeat; background-position: center top;}
+#head-Policy {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/scott-graham-OQMZwNd3ThU-unsplash.jpg) no-repeat;}
+#head-GP {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/ben-white-gEKMstKfZ6w-unsplash.jpg) no-repeat;}
+#head-SJ {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/clay-banks-qT7fZVbDcqE-unsplash.jpg) no-repeat;}
+#head-Rec {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imgs/javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg) no-repeat;}
+
+#head-OLS, #head-PPs, #head-Policy, #head-GP, #head-SJ, #head-Rec { background-size: cover; background-position: center center; min-height:420px; text-align: center; padding-top:240px; color:white; font-weight:300;}
+
+#head-OLS .secondary, #head-PPs .secondary, #head-Policy .secondary, #head-GP .secondary, #head-SJ .secondary, #head-Rec .secondary { 
+	height:100px; min-height: 100px; padding-top:0px; 
+}
+#head-OLS .lead, #head-PPs .lead, #head-Policy .lead, #head-GP .lead, #head-SJ .lead, #head-Rec .lead { 
+	font-size:44px; margin-bottom:6px; color:white; line-height:1.15em; font-weight: bold; 
+} 
+#head-OLS .tagline, #head-PPs .tagline, #head-Policy .tagline, #head-GP .tagline, #head-SJ .tagline, #head-Rec .tagline { 
+	color:rgba(255,255,255,0.75); margin-bottom:25px; width: 100%;
+}
+#head-OLS .tagline a, #head-PPs .tagline a, #head-Policy .tagline a, #head-GP .tagline a, #head-SJ .tagline a, #head-Rec .tagline a { color:#fff; } 
 
 @media (max-width: 767px) {
 	#head-OLS { min-height:220px; padding-top:160px; }
@@ -38,11 +59,10 @@ body {
 }
 
 
-
-ul {
+/* ul {
 	list-style: none;
 	margin: 0px;
-}
+} */
 
 p {
 	font-size: 13px;
@@ -52,6 +72,13 @@ p {
 
 /* Typography */
 blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0 30px; }
+
+/* Highlights (in jumbotron in most cases) */
+.highlight { margin-top:20px; }
+	.h-caption { text-align: center; } 
+	.h-caption i { display:block; font-size: 54px; color:#382526; margin-bottom:16px; }
+	.h-caption h4 { color:#382526; font-size: 14px; font-weight: bold; margin-bottom:8px; }
+	/* .h-body { } */
 
 .white-border-button a {
 	padding: 14px 20px;
@@ -66,9 +93,9 @@ blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0
 	transition: all 0.5s;
 }
 
-.pink-button a {
+.blue-button a {
 	padding: 14px 20px;
-	background-color: #b94e5e;
+	background-color: #3330cc;
 	border-radius: 30px;
 	color: #fff;
 	font-size: 13px;
@@ -238,12 +265,12 @@ blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0
 }
 
 .best-offer-left-content {
-	min-height: 550px;
-	height: 550px;
+	min-height: 450px;
+	height: 450px;
 	padding-top: 175px;
 	padding-bottom: 175px;
 	text-align: center;
-	background-image: url(../img/best-offer-bg.png);
+	background-image: url(../imgs/georgie-cobbs-muOHbrFGEQY-unsplash-blue.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -256,7 +283,7 @@ blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0
 	height: 140px;
 	line-height: 140px;
 	background-color: transparent;
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	border-radius: 50%;
 }
 
@@ -271,8 +298,8 @@ blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0
 .best-offer-right-content {
 	background-color: #eee;
 	padding: 80px 40px;
-	min-height: 550px;
-	height: 550px;
+	min-height: 450px;
+	height: 450px;
 }
 
 .best-offer-right-content h2 {
@@ -285,7 +312,7 @@ blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0
 
 .best-offer-right-content em {
 	font-style: normal;
-	color: #b94e5e;
+	color: #3330cc;
 	font-weight: 700;
 }
 
@@ -308,9 +335,110 @@ blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0
 	margin-bottom: 10px;
 }
 
-.best-offer-right-content .pink-button {
+.best-offer-right-content .blue-button {
 	margin-top: 45px;
 }
+
+
+
+.standard-content-block, 
+.opposite-content-block {
+	margin-top: 10px;
+}
+
+.standard-content-block .col-md-4,
+.opposite-content-block .col-md-4 {
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+.standard-content-block .col-md-8,
+.opposite-content-block .col-md-8 {
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+.standard-content-block-left-content,
+.opposite-content-block-right-content {
+	min-height: 450px;
+	height: 100%;
+	padding-top: 175px;
+	padding-bottom: 175px;
+	text-align: center;
+	/* background-image: url(../imgs/umberto-deb2EnbWPr8-unsplash.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+.standard-content-block-left-content h4,
+.opposite-content-block-right-content h4 {
+	margin-top: 33px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+}
+
+.standard-content-block-right-content,
+.opposite-content-block-left-content {
+	background-color: #eee;
+	padding: 80px 40px;
+	min-height: 450px;
+	height: inherit;
+}
+
+.standard-content-block-right-content h2,
+.opposite-content-block-left-content h2 {
+	margin-top: 0px;
+	font-size: 32px;
+	font-weight: 300;
+	color: #121212;
+	line-height: 36px;
+}
+
+.standard-content-block-right-content em,
+.opposite-content-block-left-content em {
+	font-style: normal;
+	color: #3330cc;
+	font-weight: 700;
+}
+
+.standard-content-block-right-content p,
+.opposite-content-block-left-content p {
+	margin: 18px 0px;
+}
+
+.standard-content-block-right-content ul,
+.opposite-content-block-left-content ul {
+	padding: 0;
+	margin: 0;
+	list-style: square inside;
+}
+
+.standard-content-block-right-content ul li,
+.opposite-content-block-left-content ul li {
+	display: list-item;
+	font-size: 13px;
+	color: #363958;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.standard-content-block-right-content .blue-button,
+.opposite-content-block-left-content .blue-button {
+	margin-top: 45px;
+}
+
+
+
+
+/* Specific backgrounds for block IDs */
+#political-ict .standard-content-block-left-content {
+	background-image: url(../imgs/umberto-deb2EnbWPr8-unsplash.jpg);
+}
+
 
 
 
@@ -954,7 +1082,7 @@ footer p em {
 		height: auto;
 	}
 
-	.best-offer-right-content .pink-button {
+	.best-offer-right-content .blue-button {
 		margin-bottom: 50px;
 	}
 
