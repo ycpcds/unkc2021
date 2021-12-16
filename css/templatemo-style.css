@@ -12,6 +12,8 @@ http://www.templatemo.com/tm-513-avalon
     font-family: 'Open Sans', arial, sans-serif;
 }
 
+
+
 /* body {
 	padding-top: 80px;
 	overflow-x: hidden;
@@ -23,6 +25,9 @@ http://www.templatemo.com/tm-513-avalon
 	}
   } */
 
+  html {
+	scroll-behavior: smooth;
+   }
 
 
 /* Header */
@@ -59,10 +64,16 @@ http://www.templatemo.com/tm-513-avalon
 }
 
 
-/* ul {
-	list-style: none;
-	margin: 0px;
-} */
+ ul {
+	list-style: square inside;
+	margin: 20px;
+} 
+
+ol {
+	font-size: 16px;
+	list-style-type: inside;
+	margin: 20px;
+}
 
 p {
 	font-size: 13px;
@@ -91,6 +102,20 @@ blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0
 	font-weight: 700;
 	text-decoration: none;
 	transition: all 0.5s;
+}
+
+.white-black-button a{
+	padding: 14px 20px;
+	background-color: #121212;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.5s;
+
 }
 
 .blue-button a {
